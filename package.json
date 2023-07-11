@@ -1,0 +1,27 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "description": "",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/knex": "^0.16.1",
+    "fastify": "^4.19.2",
+    "fastify-multer": "^2.0.3",
+    "jsonwebtoken": "^9.0.1",
+    "knex": "^2.5.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
